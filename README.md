@@ -20,13 +20,16 @@ This is a **4-channel MOSFET-based motor driver** designed for controlling multi
 | **LED** | Red LED |
 
 ## Schematic Diagram
-![Schematic](https://raw.githubusercontent.com/username/repository/main/schematic.png)
+![Schematic](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Motor_Driver_Schematic.png)
+
+## PCB Layout
+![Layout](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Motor_Driver_Layout.png)
 
 ## 3D View of PCB
-![3D View](https://raw.githubusercontent.com/username/repository/main/3d_view.png)
+![3D View](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Motor_Driver_3D_View.png)
 
 ## 2D PCB Layout
-![2D View](https://raw.githubusercontent.com/username/repository/main/2d_view.png)
+![2D View](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Motor_Driver_2D_View.png)
 
 ## Real-Life Working Circuit
 ![Real Circuit](https://raw.githubusercontent.com/username/repository/main/real_life_circuit.png)
