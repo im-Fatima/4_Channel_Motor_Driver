@@ -19,45 +19,36 @@ This is a **4-channel MOSFET-based motor driver** designed for controlling multi
 | **Resistors** | 10KΩ & 1KΩ |
 | **LED** | Red LED |
 
+## Schematic Diagram
+![Schematic](https://raw.githubusercontent.com/username/repository/main/schematic.png)
+
+## 3D View of PCB
+![3D View](https://raw.githubusercontent.com/username/repository/main/3d_view.png)
+
+## 2D PCB Layout
+![2D View](https://raw.githubusercontent.com/username/repository/main/2d_view.png)
+
+## Real-Life Working Circuit
+![Real Circuit](https://raw.githubusercontent.com/username/repository/main/real_life_circuit.png)
+
 ## Use Case: Drones
 - **Motor Control**: Ideal for **controlling drone motors** efficiently using PWM signals.
 - **Lightweight**: Uses compact MOSFETs, making it **suitable for aerial applications**.
 - **High Efficiency**: Minimal heat dissipation and **low resistance switching**.
 
-pics
+
 ## How to Use
 1. **Connect Power**: Supply **3V - 12V** to the motor driver.
 2. **Connect Motors**: Attach up to **4 motors** to the output terminals.
-3. **Logic Input**: Use a **3.3V or 5V** microcontroller (e.g., Arduino, ESP32) to control motor speed/direction.
-4. **PWM Control**: Adjust motor speed using **PWM signals**.
+3. **Logic Input**: Use a **3.3V or 5V** microcontroller (e.g., Arduino, ESP32) to control the motor.
 5. **Test the Setup**: Ensure LEDs light up and motors respond correctly.
 
-## Example Code (Arduino)
-```cpp
-#define MOTOR1 5 // Connect to MOSFET gate
-#define MOTOR2 6
-#define MOTOR3 9
-#define MOTOR4 10
 
-void setup() {
-  pinMode(MOTOR1, OUTPUT);
-  pinMode(MOTOR2, OUTPUT);
-  pinMode(MOTOR3, OUTPUT);
-  pinMode(MOTOR4, OUTPUT);
-}
 
-void loop() {
-  analogWrite(MOTOR1, 150);  // 50% speed
-  delay(2000);
-  analogWrite(MOTOR1, 0);    // Stop
-  delay(2000);
-}
-```
 
 ## Advantages
 ✔ **Compact & Lightweight** - Ideal for drone applications.  
 ✔ **Supports Up to 5A (AO3400)** - Can drive powerful motors.  
-✔ **PWM Speed Control** - Allows precise motor control.  
 ✔ **Low Power Consumption** - Efficient switching with MOSFETs.  
 
 ## Notes
