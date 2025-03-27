@@ -32,7 +32,9 @@ This is a **4-channel MOSFET-based motor driver** designed for controlling multi
 ![2D View](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Motor_Driver_2D_View.png)
 
 ## Real-Life Working Circuit
-![Real Circuit](https://raw.githubusercontent.com/username/repository/main/real_life_circuit.png)
+![Working_Module](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Working_Module.jpg)
+
+![Testing](https://github.com/im-Fatima/4_Channel_Motor_Driver/blob/main/Testing.jpg)
 
 ## Use Case: Drones
 - **Motor Control**: Ideal for **controlling drone motors** efficiently using PWM signals.
